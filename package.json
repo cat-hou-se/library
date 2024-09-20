@@ -1,0 +1,17 @@
+{
+  "name": "@cat-hou-se/library",
+  "scripts": {
+    "build": "turbo build",
+    "fix": "eslint . --fix",
+    "format": "prettier --write . --ignore-unknown",
+    "lint": "eslint . --max-warnings 0",
+    "npm:publish": "turbo npm:publish --continue"
+  },
+  "devDependencies": {
+    "@cat-hou-se/prettier-config": "workspace:^",
+    "eslint": "^9.39.4",
+    "prettier": "^3.8.1",
+    "turbo": "^2.8.16"
+  },
+  "packageManager": "pnpm@10.30.3"
+}

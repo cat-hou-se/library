@@ -1,0 +1,11 @@
+# Dependencies
+node_modules/
+
+# Exports
+build/
+
+# TurboRepo
+.turbo/
+
+# Environment variables
+.env*.local
