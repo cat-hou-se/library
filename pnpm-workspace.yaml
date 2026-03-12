@@ -1,3 +1,7 @@
 packages:
   - "configs/*"
   - "packages/*"
+
+onlyBuiltDependencies:
+  - esbuild
+  - msw
