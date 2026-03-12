@@ -1,0 +1,53 @@
+{
+  "name": "@cat-hou-se/eslint-config",
+  "version": "1.0.0",
+  "description": "shared eslint config for cat-house",
+  "keywords": [
+    "cat-house",
+    "eslint-config"
+  ],
+  "homepage": "https://github.com/cat-hou-se/library/tree/main/configs/eslint-config#readme",
+  "bugs": {
+    "url": "https://github.com/cat-hou-se/library/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cat-hou-se/library.git",
+    "directory": "configs/eslint-config"
+  },
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": "./configs/index.config.ts",
+    "./base": "./configs/base.config.ts",
+    "./react": "./configs/react.config.ts"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "npm:publish": "npm publish"
+  },
+  "dependencies": {
+    "@eslint/compat": "^2.0.3",
+    "@eslint/eslintrc": "^3.3.5",
+    "@eslint/js": "^9.39.4",
+    "@typescript-eslint/eslint-plugin": "^8.57.0",
+    "@typescript-eslint/parser": "^8.57.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-better-tailwindcss": "^3.8.0",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "fast-glob": "^3.3.3",
+    "globals": "^16.5.0"
+  },
+  "devDependencies": {
+    "@types/eslint-plugin-jsx-a11y": "^6.10.1",
+    "@types/node": "^24.12.0",
+    "eslint": "^9.39.4"
+  },
+  "peerDependencies": {
+    "eslint": "^9.39.2"
+  }
+}

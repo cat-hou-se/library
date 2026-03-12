@@ -8,6 +8,7 @@
     "npm:publish": "turbo npm:publish --continue"
   },
   "devDependencies": {
+    "@cat-hou-se/eslint-config": "workspace:^",
     "@cat-hou-se/prettier-config": "workspace:^",
     "eslint": "^9.39.4",
     "prettier": "^3.8.1",
