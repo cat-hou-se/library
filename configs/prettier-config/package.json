@@ -1,0 +1,44 @@
+{
+  "name": "@cat-hou-se/prettier-config",
+  "version": "1.1.0",
+  "description": "shared prettier config for cat-house",
+  "keywords": [
+    "cat-house",
+    "prettier-config"
+  ],
+  "homepage": "https://github.com/cat-hou-se/library/tree/main/config/prettier-config#readme",
+  "bugs": {
+    "url": "https://github.com/cat-hou-se/library/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cat-hou-se/library.git",
+    "directory": "config/prettier-config"
+  },
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./build/prettier.config.d.ts",
+      "import": "./build/prettier.config.js"
+    }
+  },
+  "scripts": {
+    "build": "tsup",
+    "npm:publish": "npm publish"
+  },
+  "dependencies": {
+    "prettier-plugin-java": "^2.8.1",
+    "prettier-plugin-packagejson": "^2.5.22",
+    "prettier-plugin-sh": "^0.18.0",
+    "prettier-plugin-sql": "^0.19.2",
+    "prettier-plugin-toml": "^2.0.6"
+  },
+  "devDependencies": {
+    "prettier": "^3.8.1",
+    "tsup": "^8.5.1"
+  },
+  "peerDependencies": {
+    "prettier": "^3.8.1"
+  }
+}
